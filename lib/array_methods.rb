@@ -1,4 +1,5 @@
 def using_include(array, element)
+    return if array.include?(element)
 
 end
 
